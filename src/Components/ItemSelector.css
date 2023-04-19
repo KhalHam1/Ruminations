@@ -8,13 +8,11 @@
 .selection__top__left {
     display: flex;
     padding: 12px 24px;
-    /* font-weight: bold; */
     justify-content: center;
     text-align: center;
     align-items: center;
     color: #fff;
     border-color: #007bff;
-    /* background-color: #007bff; */
     background-image: url('../Images/Pathway.jpeg');
     font-family: "Monotype Corsiva", "Courier New", monospace;
     font-size: 28px;
@@ -27,7 +25,6 @@
 .selection__top__right {
     display: flex;
     padding: 12px 24px;
-    /* font-weight: bold; */
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -45,7 +42,6 @@
 .selection__bottom__left {
     display: flex;
     padding: 12px 24px;
-    /* font-weight: bold; */
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -63,7 +59,6 @@
 .selection__bottom__right {
     display: flex;
     padding: 12px 24px;
-    /* font-weight: bold; */
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -98,7 +93,7 @@
     padding: 5px 10px;
     background-color: #007bff;
     color: #fff; 
-    border-radius: 10px; /* Example border radius */
+    border-radius: 10px;
   }
 
   @media (max-width: 768px) {
