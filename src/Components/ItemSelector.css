@@ -1,0 +1,126 @@
+.selection__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide the container into two columns */
+    grid-template-rows: 1fr 1fr; /* Divide the container into two rows */
+    height: 93vh; /* Set the height of the container*/
+  }
+
+.selection__top__left {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    border-color: #007bff;
+    background-image: url('../Images/Pathway.jpeg');
+    font-family: "Monotype Corsiva", "Courier New", monospace;
+    font-size: 28px;
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+.selection__top__right {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    border-color: #007bff;
+    background-image: url('../Images/Ocean.jpeg');
+    font-family: "Monotype Corsiva", "Courier New", monospace;
+    font-size: 28px;
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+.selection__bottom__left {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    border-color: #007bff;
+    background-image: url('../Images/Beach.jpeg');
+    font-family: "Monotype Corsiva", "Courier New", monospace;
+    font-size: 28px;
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+.selection__bottom__right {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    border-color: #007bff;
+    background-image: url('../Images/Moonlight2.jpg');
+    font-family: "Monotype Corsiva", "Courier New", monospace;
+    font-size: 28px;
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  .selection__top__right:hover {
+    filter: brightness(75%);
+  }
+
+  .selection__top__left:hover {
+    filter: brightness(75%);
+  }
+
+  .selection__bottom__right:hover {
+    filter: brightness(75%);
+  }
+
+  .selection__bottom__left:hover {
+    filter: brightness(75%);
+  }
+
+  .selection__text {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff; 
+    border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .selection__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: 90vh; /* Set the height of the container*/
+    }
+
+    .selection__top__left {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .selection__top__right {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .selection__bottom__left {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .selection__bottom__right {
+        grid-column: 1;
+        grid-row: 4;
+    }
+  }
